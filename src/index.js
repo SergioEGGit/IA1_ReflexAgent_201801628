@@ -40,7 +40,7 @@ const stopCycle = (states) => {
 
    if(states[1] == "CLEAN" && states[2] == "CLEAN"){
 	
-   	document.getElementById("log").innerHTML += "<br>------- State End -------"; 
+   	document.getElementById("log").innerHTML += "<br>------- End -------"; 
 	
 	return false;
 
@@ -121,7 +121,9 @@ const test = async(states) => {
 		states[dirty] = "DIRTY"
 
 	}
+
 	console.log(states);
+
 	if(stopCycle(states)) {
 
 		flag = false;

@@ -1,6 +1,12 @@
-.reflex-agent{
+.container {
    
  	display: flex;
-    	justify-content: space-around;
+    	justify-content: center;
+
+}
+
+body {
+
+	background-color: lightblue;
 
 }
